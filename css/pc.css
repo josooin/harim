@@ -7,7 +7,7 @@
     .total_btn, .cart_btn, .c_btn{display:none;}
 
     /* 콘텐츠 중앙에 배치하기 */
-    .h_top, .gnb > ul, .free_ex article, .story article, .instar, .f_top, .f_bottom, address{
+    .h_top, .gnb > ul, .free_ex article, .story article, .instar, .f_top, .f_bottom > ul, .f_bottom > address{
         width:1200px;
         margin:0 auto;
     }
@@ -151,6 +151,7 @@
 
   /* 3. 쇼핑하러가기 */
     .product{
+        width: 1200px;
         margin:50px auto;
         /* padding:0px 10%; */
         box-sizing: border-box;

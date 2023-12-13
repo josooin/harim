@@ -5,9 +5,7 @@
 
 /* @media screen and (max-width:767px) { */
 
-  header{
-    height:60px; 
-  }
+  header{height:60px;}
   header h1{
     width:130px;
     margin:0px auto;
@@ -35,7 +33,7 @@
 }
 .lnb > ul{
   display:flex;
-  flex-wrap:wrap; /* 박스안이 다 차면아래로 내려보냄 */
+  flex-wrap:wrap;
   justify-content: center;
 }
 .lnb > ul > li{
@@ -49,7 +47,6 @@
   line-height:280%;
   color:#fff;
 }
-
 
 /* h_bottom서식 */
 .h_bottom{}
